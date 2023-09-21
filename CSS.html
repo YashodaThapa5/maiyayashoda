@@ -4,30 +4,38 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
     <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="/style.css" type="text/css"> -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      /* 0+1
+      1+1
+      2+1
+      3+1 */
+
+      /* 2*0+1
+      2*1+1 
+      2*2+1 */
+      ol li:nth-child(2n+1) {
+        color: red;
+      }
+    </style>
+
+  <body>
+    <ol>
+      <li>Lorem ipsum dolor sit amet 1.</li>
+      <li>Lorem ipsum dolor sit amet2.</li>
+      <li>Lorem ipsum dolor sit amet3.</li>
+      <li>Lorem ipsum dolor sit amet4.</li>
+    </ol>
+  </body>
   </head>
 
 
-
-  <body>
-
-    <h1 class="Yashoda" id="mm">Hi Yashoda</h1>
-    <p>This is first paragraph</p>
-    <img src="./Assets/Images/thom-holmes-9GBwZrbT0QU-unsplash.jpg" alt="snow" width="300px" height="200px">
-
-    <form action="./Contact.html" method="post">
-      <fieldset>
-        <legend>Personal info</legend>
-        name <input type="text">
-        email
-        <input type="email">
-      </fieldset>
-      <button type="submit">submit</button><button type="reset">reset</button>
-      <p>cfhg</p>
-      <p>sfsds</p>
-
-    </form>
-  </body>
 
 </html>
